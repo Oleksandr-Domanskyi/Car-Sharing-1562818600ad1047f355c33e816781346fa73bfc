@@ -1,0 +1,42 @@
+﻿.navbar .nav-link {
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background-image: url('https://c.pxhere.com/photos/67/79/garage_parking_parking_lot_underground_the_wine_cellar_dungeon-649589.jpg!d');
+    background-size: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    margin-left: 30px;
+}
+
+/* Новые стили */
+.navbar-nav .nav-item:last-child {
+    margin-left: auto; /* Сдвиг последнего элемента (поисковой полоски) вправо */
+}
+
+.navbar-nav .nav-item form {
+    display: flex; /* Используем flexbox для выравнивания элементов формы */
+    align-items: center; /* Выравнивание элементов формы по вертикали */
+}
+
+.navbar-nav .nav-item form input[type="text"],
+.navbar-nav .nav-item form button {
+    margin: 0; /* Удаление внешних отступов у элементов формы */
+}

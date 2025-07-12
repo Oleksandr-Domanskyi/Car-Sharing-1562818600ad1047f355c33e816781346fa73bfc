@@ -1,0 +1,35 @@
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.deps.json
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.pdb
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingDomain.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingDomain.pdb
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.AssemblyInfoInputs.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.AssemblyInfo.cs
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.csproj.CopyComplete
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\refint\CarSharingInfrastructure.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.pdb
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\ref\CarSharingInfrastructure.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.runtimeconfig.json
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.genruntimeconfig.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.sourcelink.json
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.deps.json
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.runtimeconfig.json
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingInfrastructure.pdb
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingDomain.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\bin\Debug\net8.0\CarSharingDomain.pdb
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.csproj.AssemblyReference.cache
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.AssemblyInfoInputs.cache
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.AssemblyInfo.cs
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.csproj.CoreCompileInputs.cache
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarShari.FA552A9B.Up2Date
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\refint\CarSharingInfrastructure.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.pdb
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\CarSharingInfrastructure.genruntimeconfig.cache
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingInfrastructure\obj\Debug\net8.0\ref\CarSharingInfrastructure.dll

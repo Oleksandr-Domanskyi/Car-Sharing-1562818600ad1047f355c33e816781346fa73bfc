@@ -1,0 +1,111 @@
+﻿
+.body {
+    position: relative;
+    overflow: hidden;
+    width: 25rem;
+    height: 30rem;
+    position: relative;
+    background-size: 100% 100%;
+    
+}
+
+
+
+.car-details-container {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Adjust text color as needed */
+    box-sizing: border-box;
+}
+
+
+.car-info,
+.car-images,
+.Car-description,
+.car-location,
+.contact-info {
+    margin-bottom: 20px;
+}
+
+
+
+
+.image-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5%
+}
+
+.lastimage-carinfor {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+
+
+.last-image {
+    width: 600px;
+    height: 400px;
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-right: 20px; /* Optional: add space between image and text */
+}
+
+.car-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2%
+}
+
+.Car-description {
+    flex: 1;
+    margin-left: 20px; /* Optional: add space between image and text */
+}
+
+    .Car-description h2 {
+        margin-top: 0; /* Optional: remove default margin */
+    }
+
+
+.Characteristic-carLocationConinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Characteristics,
+.carLocation-conInfo {
+    display: block;
+}
+
+
+
+
+.Title-Back {
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+}
+
+.Global-title {
+    text-align: center;
+    margin-left:10%; /* Optional: remove default margin */
+}
+
+.GoBack {
+    text-align: right;
+    margin-right: 10%;
+    text-decoration: none;
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+
+
+

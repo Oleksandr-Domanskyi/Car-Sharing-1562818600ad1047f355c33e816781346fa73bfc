@@ -1,0 +1,241 @@
+﻿<script>
+    // Функция для обновления предпросмотра изображений и установки фона блока GlobalImage
+    function updateImagePreview(input) {
+        if (input.files && input.files.length > 0) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                var imageUrl = e.target.result;
+
+                // Устанавливаем изображение в качестве фона блока GlobalImage
+                document.getElementById("globalImage").style.backgroundImage = "url('" + imageUrl + "')";
+                document.getElementById("globalImage").style.backgroundSize = "cover";
+                document.getElementById("globalImage").style.backgroundPosition = "center";
+                document.getElementById("globalImage").style.height = "400px"; // Добавляем высоту, чтобы изображение отображалось
+            };
+
+            reader.readAsDataURL(input.files[0]); // Чтение выбранного изображения в формате base64
+        }
+    }
+
+    // При изменении выбранного файла обновляем предпросмотр изображений
+    document.getElementById("globalProfileImage").addEventListener("change", function () {
+        updateImagePreview(this);
+    });
+</script>
+<script>
+    // Функция для обновления предпросмотра изображений для Car Images
+    function updateCarImagesPreview(input) {
+        if (input.files && input.files.length > 0) {
+            // Очищаем предыдущий предпросмотр изображений Car Images
+            document.getElementById("imagePreview").innerHTML = "";
+
+            // Создаем элемент <div> для каждого выбранного изображения и добавляем его на страницу
+            for (var i = 0; i < input.files.length; i++) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    var div = document.createElement("div");
+                    div.style.marginRight = "10px";
+                    div.style.marginBottom = "10px";
+                    div.style.position = "relative"; // Добавляем относительное позиционирование
+
+                    // Создаем элемент <img> для каждого выбранного изображения и добавляем его в <div>
+                    var img = document.createElement("img");
+                    img.src = e.target.result;
+                    img.style.width = "400px"; // Задаем размер изображения
+                    img.style.height = "300px";
+                    img.style.borderRadius = "20px";
+                    div.appendChild(img);
+
+                    // Создаем кнопку удаления и добавляем ее в <div>
+                    var deleteButton = document.createElement("button");
+                    deleteButton.innerText = "Delete";
+                    deleteButton.style.position = "absolute";
+                    deleteButton.style.top = "5px";
+                    deleteButton.style.width = "100px";
+                    deleteButton.style.height = "50px";
+                    deleteButton.style.color = "white";
+                    deleteButton.style.borderColor = "white";
+                    deleteButton.className = "btn btn-outline-secondary";
+                    deleteButton.style.right = "5px";
+                    deleteButton.addEventListener("click", function () {
+                        div.remove(); // Удаляем <div> при нажатии на кнопку удаления
+                    });
+                    div.appendChild(deleteButton);
+
+                    // Добавляем <div> с изображением и кнопкой удаления в предпросмотр Car Images
+                    document.getElementById("imagePreview").appendChild(div);
+                };
+
+                reader.readAsDataURL(input.files[i]); // Чтение выбранного изображения в формате base64
+            }
+        }
+    }
+
+    // При изменении выбранного файла обновляем предпросмотр изображений для Car Images
+    document.getElementById("fileInput").addEventListener("change", function () {
+        updateCarImagesPreview(this);
+    });
+</script>
+
+@using CarSharingApplication.CarSharing.CarSharingProfileCommands.Commands.CreateCarSharing
+@using CarSharingDomain.DomainModels.Enums
+
+@model CreateCarSharingCommand
+
+<link rel="stylesheet" href="~/css/CarCreate.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="Up">
+    <div class="title">
+        <h1>Create</h1>
+    </div>
+    <div>
+        <a class="btn btn-outline-secondary" style="font-size:18px;" asp-action="Index">X</a>
+    </div>
+
+</div>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="GlobalImage-Name-Description">
+                <div class="Front-Image-Money-Value">
+                    <div id="globalImage" class="GlobalImage btn btn-outline-primary">
+                        <!-- Указываем id="globalImage" -->
+                        <label class="" asp-for="GlobalProfileImage" for="globalProfileImage" style="width: 100%; height: 100%;">
+                            Your Card Image
+                            <input asp-for="GlobalProfileImage" id="globalProfileImage" type="file" multiple style="display: none;" onchange="updateImagePreview(this)" />
+                        </label>
+                        <span asp-validation-for="GlobalProfileImage" class="text-danger"></span>
+                    </div>
+
+                    <div class="Money-Value">
+                        <div class="PricePerDay">
+                            <label asp-for="PricePerDay" class="control-label">Price Per Day</label>
+                            <input asp-for="PricePerDay" class="form-control" />
+                            <span asp-validation-for="PricePerDay" class="text-danger"></span>
+                        </div>
+                        <div class="ValueMoney">
+                            <label asp-for="ValueMoney" class="control-label"></label>
+                            <select asp-for="ValueMoney" class="form-control">
+                                @foreach (var valueMoney in Enum.GetValues(typeof(ValueMoney)))
+                                {
+                                    <option value="@valueMoney">@valueMoney</option>
+                                }
+                            </select>
+                            <span asp-validation-for="ValueMoney" class="text-danger"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="Name-Description">
+                    <div class="Name">
+                        <label asp-for="Name" class="control-label">Name</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="Description">
+                        <label asp-for="Description" class="control-label">Description</label>
+                        <textarea id="descriptionInput" asp-for="Description" class="form-control" style="height: 220px;"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="Char-Cont">
+                <h2>Characteristics</h2>
+                <h2>Contact</h2>
+
+            </div>
+            <hr style="color:white" />
+            <div class="CharEng-ConDet">
+                <div class="CharEng">
+                    <div class="Silnik">
+                        <label asp-for="Silnik" class="control-label">Engine</label>
+                        <input asp-for="Silnik" class="form-control" />
+                        <span asp-validation-for="Silnik" class="text-danger"></span>
+                    </div>
+                    <div class="Color">
+                        <label asp-for="Color" class="control-label">Color</label>
+                        <input asp-for="Color" class="form-control" />
+                        <span asp-validation-for="Color" class="text-danger"></span>
+                    </div>
+                    <div class="Rims">
+                        <label asp-for="Felgi" class="control-label">Rims</label>
+                        <input asp-for="Felgi" class="form-control" />
+                        <span asp-validation-for="Felgi" class="text-danger"></span>
+                    </div>
+                    <div class="Upholstery">
+                        <label asp-for="Tapicerka" class="control-label">Upholstery</label>
+                        <input asp-for="Tapicerka" class="form-control" />
+                        <span asp-validation-for="Tapicerka" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="ContDet">
+                    <div class="Country">
+                        <label asp-for="Coutry" class="control-label">Country</label>
+                        <select asp-for="Coutry" class="form-control">
+                            @foreach (var country in Enum.GetValues(typeof(Countries)))
+                            {
+                                <option value="@country">@country</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Coutry" class="text-danger"></span>
+                    </div>
+                    <div class="City">
+                        <label asp-for="City" class="control-label"></label>
+                        <input asp-for="City" class="form-control" />
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                    <div class="ContactNumber">
+                        <label asp-for="ContactNumber" class="control-label"></label>
+                        <input asp-for="ContactNumber" class="form-control" />
+                        <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <h2 style="margin-top:20px;">Images</h2>
+            <hr style="color:white" />
+
+
+
+
+            <div>
+                <label class="btn btn-outline-primary" style="font-family: Montserrat Alternates, sans-serif;display:flex; color:white; font-size:48px; width:100%;height:100px;justify-content:center; text-align:center;">
+                    <span style="align-self: center;">Add all your images</span>
+                    <input id="fileInput" asp-for="Images" type="file" multiple style="display: none;" onchange="updateCarImagesPreview(this)" />
+                </label>
+                <span asp-validation-for="Images" class="text-danger"></span>
+            </div>
+
+
+            <div id="imagePreview" style="margin-top: 20px; display: flex; flex-wrap: wrap;"></div>
+            <div class="end">
+                <div class="Create-rezult">
+                    <input type="submit" value="Create" class="btn btn-success" />
+                </div>
+                <a asp-action="Index" class="btn btn-outline-danger">Back</a>
+            </div>
+          
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

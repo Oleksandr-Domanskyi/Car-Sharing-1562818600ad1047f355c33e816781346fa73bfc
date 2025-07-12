@@ -1,0 +1,31 @@
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\bin\Debug\net8.0\CarSharingApplication.deps.json
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\bin\Debug\net8.0\CarSharingApplication.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\bin\Debug\net8.0\CarSharingApplication.pdb
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.AssemblyInfoInputs.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.AssemblyInfo.cs
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.csproj.CoreCompileInputs.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\refint\CarSharingApplication.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.pdb
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\ref\CarSharingApplication.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\bin\Debug\net8.0\CarSharingDomain.dll
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\bin\Debug\net8.0\CarSharingDomain.pdb
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.csproj.AssemblyReference.cache
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.sourcelink.json
+C:\Users\FeZoX\Desktop\Car Sharing MVC\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.csproj.CopyComplete
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\bin\Debug\net8.0\CarSharingApplication.deps.json
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\bin\Debug\net8.0\CarSharingApplication.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\bin\Debug\net8.0\CarSharingApplication.pdb
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\bin\Debug\net8.0\CarSharingDomain.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\bin\Debug\net8.0\CarSharingDomain.pdb
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.csproj.AssemblyReference.cache
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.AssemblyInfoInputs.cache
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.AssemblyInfo.cs
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.csproj.CoreCompileInputs.cache
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarShari.292A3BAE.Up2Date
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\refint\CarSharingApplication.dll
+c:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\CarSharingApplication.pdb
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\CarSharingApplication\obj\Debug\net8.0\ref\CarSharingApplication.dll

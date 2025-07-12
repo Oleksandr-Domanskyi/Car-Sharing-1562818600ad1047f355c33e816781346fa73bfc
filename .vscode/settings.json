@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/147042d2-6f40-4cba-a519-8ad94065471d/resourceGroups/Car/providers/Microsoft.Web/sites/CarSharing",
+    "appService.deploySubpath": "."
+}

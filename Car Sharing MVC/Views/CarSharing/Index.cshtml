@@ -1,0 +1,72 @@
+﻿@model IEnumerable<CarSharingApplication.DataTransferObjects.ShowCarSharingProfileModelObject>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="/css/CarSharingIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="" text-center">Car Menu</h1>
+    </div>
+    @if (Model.Count() == default)
+    {
+        <h1>Searching not found your proposition</h1>
+    }
+    <div class="Count-buttonCreate">
+        <h3>@Model.Count() products available</h3>
+        <button class="custom-button">
+            <a asp-action="Create">Create New Ads</a>
+        </button>
+    </div>
+    
+    <div class="row justify-content-center">
+        @foreach (var item in Model)
+        {
+            var firstImage = item.Images.LastOrDefault(i => i != null);
+            if (item.Coutry == null || item.City == null || item.ContactNumber == null)
+            {
+                item.Coutry = "Poland";
+                item.City = "Rzeszów";
+                item.ContactNumber = "+48000000";
+
+            }
+            <div class="card m-3 position-relative" style="width: 25rem; height: 30rem; position: relative; overflow: hidden; background: url('@Url.Action("GetIndexImage", "CarSharing", new { imageId = firstImage?.Id })') center; background-size: cover;">
+                <div class="card-overlay"></div>
+                <div class="card-body text-white">
+                    <h5 class="card-title">@item.Name</h5>
+                    <h6 class="card-subtitle mb-1">@item.PricePerDay @item.ValueMoney/Day</h6>
+                    @if (item.GlobalProfileImage.DataFile == null)
+                    {
+                        <img class="card-image  w-100" src="@Url.Action("GetIndexImage", "CarSharing", new { imageId = firstImage?.Id })" alt="@item.Name" style="width: 340px; height: 190px;">
+                    }
+                    else
+                    {
+                        <img class="card-image  w-100" src="data:@item.GlobalProfileImage.FileType;base64,@(Convert.ToBase64String(item.GlobalProfileImage.DataFile!))" alt="@item.Name" style="width: 340px; height: 190px;">
+                    }
+
+                    <div class="mt-4 bottom-0 w-100 d-flex flex-column">
+                        <p class="card-text">Country: @item.Coutry</p>
+                        <p class="card-text">City: @item.City</p>
+                        <p class="card-subtitle">Contact number: @item.ContactNumber </p>
+                        <div class="d-flex justify-content-between mt-3">
+                            <a class="btn btn-primary" asp-controller="CarSharing" asp-action="Details" asp-route-Id="@item.Id">Details</a>
+                            @if (item.IsEditable)
+                            {
+                                <a class="btn btn-outline-secondary" asp-controller="CarSharing" asp-action="Edit" asp-route-Id="@item.Id">Edit</a>
+                            }          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <script src="/js/CarSharingIndex.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+﻿body {
+    background: #0e1323;
+    color: white;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    background-color: white;
+    width: 100vw;
+    height: 400px;
+    margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2);
+    justify-content: center;
+}
+
+h1 {
+    font-size:50px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+h2 {
+    font-size: 40px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.middle {
+    color: white;
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2);
+}
+p,li{
+    font-size:20px;
+}
+hr {
+    color: white;
+    margin-left:5%;
+    margin-right:2%;
+
+}
+.ProjectDescription {
+    margin-left: 15%;
+    width: 80vw;
+}
+.Technologies {
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+    padding-bottom:5%;
+}
+
+    .Technologies table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .Technologies th,
+    .Technologies td {
+        padding: 10px;
+        text-align: center; /* Выравнивание текста по центру */
+    }
+
+    .Technologies th {
+        background-color: #f2f2f2;
+        color: #333;
+        padding-right: 20px;
+    }
+
+    .Technologies td:nth-child(odd) {
+        padding-right: 20px;
+    }
+
+    .Technologies td:nth-child(even) {
+        padding-left: 20px;
+    }
+.end {
+    font-family: "Montserrat Alternates", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    width: 100vw;
+    height: 400px;
+    margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2);
+
+}
+    .end p,a {
+        display:flex;
+        justify-content:center;
+        font-size:20px;
+        text-decoration:none;
+    }
+.MyDescription {
+    margin-left:15%;
+    margin-right:10%;
+    display:flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+    

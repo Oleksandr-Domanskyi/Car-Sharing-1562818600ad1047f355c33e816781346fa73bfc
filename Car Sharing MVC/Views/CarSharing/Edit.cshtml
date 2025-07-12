@@ -1,0 +1,302 @@
+﻿@using CarSharingDomain.DomainModels.Enums
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using Newtonsoft.Json
+@model CarSharingApplication.DataTransferObjects.EditCarSharingProfileModelObject
+@{
+    var lastImage = Model.ExistingImages!.Last();
+}
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/CarEdit.css">
+</head>
+
+<div class="Title-Back">
+    <h1 class="Title">Edit "@Model.Name"</h1>
+    <a class="btn btn-outline-secondary" asp-action="Index">X</a>
+</div>
+<hr style="color:white;" />
+<body style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@Url.Action("GetIndexImage", "CarSharing", new { imageId = lastImage.Id })') center / cover no-repeat; backdrop-filter: blur(10px);">
+
+
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="Name-Description-Front-Image">
+
+                    <div class="Front-Image-Money-Value">
+                        <div class="Front-Image" style="position: relative;">
+
+                            <img src="data:@Model.GlobalProfileImage!.FileType;base64,@(Convert.ToBase64String(Model.GlobalProfileImage.DataFile!))" alt="@lastImage!.Name" class="last-image" width="600" height="400" style="border-radius: 20px;">
+                            <input type="hidden" asp-for="GlobalProfileImage" value="@Model.GlobalProfileImage" />
+
+                            <div class="Font-Image-Button" id="imagePreview" style="position: absolute; bottom: 0; left: 0; right: 0; text-align: center;">
+                                <label asp-for="PreViewImage" class="font-image-upload">
+                                    <i class="fas fa-cloud-upload-alt"></i> Change Preview Image
+                                </label>
+                                <input id="PreViewImage" asp-for="PreViewImage" type="file" onchange="updateImagePreview(this)" style="display: none;">
+                                <span asp-validation-for="PreViewImage" class="Font-Image-Button-span"></span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="Money-Value">
+                            <div class="PricePerDay">
+                                <label asp-for="PricePerDay" class="control-label">Price Per Day</label>
+                                <input asp-for="PricePerDay" class="form-control" />
+                                <span asp-validation-for="PricePerDay" class="text-danger"></span>
+                            </div>
+                            <div class="Value">
+                                <label asp-for="ValueMoney" class="control-label">Value</label>
+                                <select asp-for="ValueMoney" class="form-control">
+                                    @foreach (var valueMoney in Enum.GetValues(typeof(ValueMoney)))
+                                    {
+                                        <option value="@valueMoney">@valueMoney</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="ValueMoney" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Name-Description">
+                        <div class="Name">
+                            <label asp-for="Name" class="control-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="Description">
+                            <label asp-for="Description" class="control-label"></label>
+                            <textarea asp-for="Description" id="descriptionInput" class="form-control" style="height: 220px; overflow: hidden;"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" Char-Cont">
+                    <h3>Charcteristics</h3>
+                    <h3>Contact Details</h3>
+                </div>
+
+                <hr class="Line-details" style="color:white;" />
+                <div class="CharEng-ConDet">
+                    <div class="CharEng">
+
+                        <div class="Engine">
+                            <label asp-for="Characteristics!.Engine" class="control-label"></label>
+                            <input asp-for="Characteristics!.Engine" class="form-control" />
+                            <span asp-validation-for="Characteristics!.Engine" class="text-danger"></span>
+                        </div>
+                        <div class="Color">
+                            <label asp-for="Characteristics!.Color" class="control-label"></label>
+                            <input asp-for="Characteristics!.Color" class="form-control" />
+                            <span asp-validation-for="Characteristics!.Color" class="text-danger"></span>
+                        </div>
+                        <div class="Rims">
+                            <label asp-for="Characteristics!.Rims" class="control-label"></label>
+                            <input asp-for="Characteristics!.Rims" class="form-control" />
+                            <span asp-validation-for="Characteristics!.Rims" class="text-danger"></span>
+                        </div>
+                        <div class="Upholstery">
+                            <label asp-for="Characteristics!.Upholstery" class="control-label"></label>
+                            <input asp-for="Characteristics!.Upholstery" class="form-control" />
+                            <span asp-validation-for="Characteristics!.Upholstery" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="ContDet">
+                        <div class="Country">
+                            <label asp-for="Coutry" class="control-label">Country</label>
+                            <select asp-for="Coutry" class="form-control">
+                                @foreach (var country in Enum.GetValues(typeof(Countries)))
+                                {
+                                    <option value="@country">@country</option>
+                                }
+                            </select>
+                            <span asp-validation-for="Coutry" class="text-danger"></span>
+                        </div>
+                        <div class="City">
+                            <label asp-for="City" class="control-label"></label>
+                            <input asp-for="City" class="form-control" />
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="ContactNumber">
+                            <label asp-for="ContactNumber" class="control-label">Contact Number</label>
+                            <input asp-for="ContactNumber" class="form-control" />
+                            <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="Images-title">Images</h3>
+                <hr class="Line-details" style="color:white;" />
+
+                <div class="image-upload">
+                    <label asp-for="NewImages" class="custom-file-upload">
+                        <i class="fas fa-cloud-upload-alt"></i> Add new images
+                    </label>
+                    <input id="NewImages" asp-for="NewImages" type="file" multiple />
+                    <span asp-validation-for="NewImages" class="text-danger"></span>
+                    <h3 style="width:1166px; margin-top:20px;">New images to add</h3>
+                    <hr style="color:white" />
+                    <div class="Images-Container image-container" id="newImagePreview">
+                        
+                    </div>
+                </div>
+                <h3>Your old images</h3>
+                <hr style="color:white;  width:1166px;" />
+                <div class="Exhisting-images image-container">
+                    @for (var i = 0; i < Model.ExistingImages!.Count; i++)
+                    {
+                        var displayStyle = Model.ExistingImages.Count == 1 ? "none" : "inline-block";
+
+                        <div class="image-item">
+                            <img src="@Url.Action("GetDetailsImage", "CarSharing", new { imageId = Model.ExistingImages[i].Id })" alt="@Model.ExistingImages[i].Name" />
+                            <input type="hidden" name="ExistingImages[@i].Id" value="@Model.ExistingImages[i].Id" />
+                            <button type="button" style="display: @displayStyle" class="delete-button btn btn-outline-danger" onclick="removeImage('@Model.ExistingImages[i].Id')">Delete</button>
+                        </div>
+                    }
+                </div>
+
+                <div class="End-back">
+                    <div class="End">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                        <button type="button" class="btn btn-danger" onclick="DeleteCarSharing('@Model.Id')">Delete Card</button>
+                    </div>
+                    <input type="submit" value="Back" asp-action="Details" asp-route-id="@Model.Id" class="GoBack btn btn-outline-secondary" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}<script>
+     function removeImage(imageId) {
+         $.ajax({
+             type: "POST",
+             url: "@Url.Action("RemoveImageinEdit", "CarSharing")",
+             data: { imageId: imageId },
+             success: function (result) {
+                 if (result.success) {
+                     location.reload(true);
+                 } else {
+                     console.log("Error removing image");
+                 }
+             },
+             error: function (xhr, status, error) {
+                 console.log("Error removing image");
+                 console.log(xhr.responseText);
+             }
+         });
+     }
+
+     function DeleteCarSharing(Id) {
+         $.ajax({
+             type: "DELETE",
+             url: "@Url.Action("Delete", "CarSharing")",
+             data: { Id: Id },
+             success: function (response) {
+                 window.location.href = "@Url.Action("Index", "CarSharing")";
+             },
+             error: function (xhr, status, error) {
+                 console.log("Error deleting car sharing");
+                 console.log(xhr.responseText);
+             }
+         });
+     }
+
+     function autoResize(element) {
+         element.style.height = "200";
+         element.style.height = (element.scrollHeight) + "px";
+     }
+
+     function updateImagePreview(input) {
+         if (input.files && input.files[0]) {
+             var reader = new FileReader();
+
+             reader.onload = function (e) {
+                 var imageUrl = e.target.result;
+
+                 document.getElementById("imagePreview").style.backgroundImage = "url('" + imageUrl + "')";
+                 document.getElementById("imagePreview").style.backgroundSize = "cover";
+                 document.getElementById("imagePreview").style.backgroundPosition = "center";
+                 document.getElementById("imagePreview").style.borderRadius = "20px";
+                 document.getElementById("imagePreview").style.height = "400px"; // Add height to display the image
+             };
+
+             reader.readAsDataURL(input.files[0]); // Read the selected image in base64 format
+         }
+     }
+
+     // Event listener for Preview button
+     document.getElementById("PreViewImage").addEventListener("change", function () {
+         updateImagePreview(this);
+     });
+
+     function updateCarImagesPreview(input) {
+         if (input.files && input.files.length > 0) {
+             document.getElementById("newImagePreview").innerHTML = "";
+
+             for (var i = 0; i < input.files.length; i++) {
+                 var reader = new FileReader();
+
+                 reader.onload = function (e) {
+                     var div = document.createElement("div");
+                     div.style.marginRight = "10px";
+                     div.style.marginBottom = "10px";
+                     div.style.position = "relative";
+
+                     var img = document.createElement("img");
+                     img.src = e.target.result;
+                     img.style.width = "300px";
+                     img.style.height = "200px";
+                     img.style.borderRadius = "20px";
+                     div.appendChild(img);
+
+                     var deleteButton = document.createElement("button");
+                     deleteButton.innerText = "Delete";
+                     deleteButton.style.position = "absolute";
+                     deleteButton.style.top = "5px";
+                     deleteButton.style.width = "100px";
+                     deleteButton.style.height = "50px";
+                     deleteButton.className = "btn btn-outline-danger";
+                     deleteButton.style.right = "5px";
+                     deleteButton.addEventListener("click", function () {
+                         div.remove(); // Remove <div> when delete button is clicked
+                     });
+                     div.appendChild(deleteButton);
+
+                     // Append <div> with image and delete button to Car Images preview
+                     document.getElementById("newImagePreview").appendChild(div);
+                 };
+
+                 reader.readAsDataURL(input.files[i]); // Read the selected image in base64 format
+             }
+         }
+     }
+
+     // Event listener for New Image button
+     document.getElementById("NewImages").addEventListener("change", function () {
+         updateCarImagesPreview(this);
+     });
+
+     document.addEventListener("DOMContentLoaded", function () {
+         var existingImages = @Html.Raw(JsonConvert.SerializeObject(Model.ExistingImages, Formatting.None, new JsonSerializerSettings
+                         {
+                             PreserveReferencesHandling = PreserveReferencesHandling.Objects
+                         }));
+         displayExistingImages(existingImages);
+     });
+</script>

@@ -1,0 +1,301 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Car Sharing MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Car Sharing MVC.hc30s978mx.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\CarCreate.css",
+      "PackagePath": "staticwebassets\\css\\CarCreate.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\CarDetails.css",
+      "PackagePath": "staticwebassets\\css\\CarDetails.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\CarEdit.css",
+      "PackagePath": "staticwebassets\\css\\CarEdit.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\CarSharingIndex.css",
+      "PackagePath": "staticwebassets\\css\\CarSharingIndex.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\HomeCarSharingPage.css",
+      "PackagePath": "staticwebassets\\css\\HomeCarSharingPage.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\Navbar.css",
+      "PackagePath": "staticwebassets\\css\\Navbar.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\js\\CarSharingIndex.js",
+      "PackagePath": "staticwebassets\\js\\CarSharingIndex.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Car Sharing MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Car Sharing MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Car Sharing MVC.props",
+      "PackagePath": "build\\Car Sharing MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Car Sharing MVC.props",
+      "PackagePath": "buildMultiTargeting\\Car Sharing MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Car Sharing MVC.props",
+      "PackagePath": "buildTransitive\\Car Sharing MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

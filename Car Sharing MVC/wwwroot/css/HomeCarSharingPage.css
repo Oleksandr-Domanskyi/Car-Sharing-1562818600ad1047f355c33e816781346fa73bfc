@@ -1,0 +1,357 @@
+﻿body {
+    background-color: #0e1323;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    border-radius: 20px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+}
+
+.container {
+    color:black;
+}
+.Container {
+    display: flex;
+    margin-top:40px;
+}
+.Information{
+    margin-left:20px;
+}
+
+
+.GlobalTitle {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    margin-top: 5%;
+    padding-top:5%;
+    text-align: center; /* Выравнивание заголовка по центру */
+}
+    .GlobalTitle::first-letter {
+        color: red; /* Любой цвет, который вы хотите применить к первой букве */
+    }
+
+    .GlobalTitle::first-line {
+        color: black; /* Любой цвет, который вы хотите применить к первому слову */
+    }
+.hr-tittle{
+    color:black;
+}
+.typing-animation {
+    overflow: hidden; /* Обеспечиваем, чтобы текст не показывался до начала анимации */
+    white-space: nowrap; /* Применяем nowrap, чтобы текст не переносился */
+    margin: 0 auto; /* Выравниваем текст по центру */
+    animation: typing 3s steps(40, end); /* Применяем анимацию печатания */
+}
+
+/* Анимация печатания */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 600px;
+}
+.Slider {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    
+    scroll-behavior: smooth;
+}
+    .Slider::-webkit-scrollbar {
+        display: none; /* Скрыть полосу прокрутки */
+    }
+.Slider img{
+    flex:1 0 100%;
+    scroll-snap-align:start;
+    object-fit:cover;
+    border-radius:20px;
+}
+.slider-nav{
+    display:flex;
+    column-gap:1rem;
+    position:absolute;
+    bottom:1.25rem;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:1;
+}
+.slider-nav a{
+    width:0.5rem;
+    height:0.5rem;
+    border-radius:50%;
+    background-color:#fff;
+    opacity:0.75;
+    transition:opacity ease 250ms;
+}
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Добавляем немного прозрачности для кнопок */
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px; /* Добавляем немного отступа */
+    transition: background 0.3s ease; /* Добавляем переход для плавного изменения цвета фона кнопок */
+}
+
+.prev {
+    left: 10px; /* Отступ кнопки "Previous" слева */
+}
+
+.next {
+    right: 10px; /* Отступ кнопки "Next" справа */
+}
+    .prev:hover,
+    .next:hover {
+        background: rgba(0, 0, 0, 0.7); /* Изменяем цвет фона при наведении */
+    }
+@keyframes slideAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.Slider img {
+    animation: slideAnimation 0.5s ease-in-out forwards;
+}
+.h3{
+    position:absolute;
+    color:white;
+}
+.Slider-slider-tittle {
+    display: block;
+    background-color: #10161d;
+    border-radius: 20px;
+    border: 10px solid #2f1a27;
+    padding: 40px;
+    justify-content: center;
+}
+    .Slider-slider-tittle h2 {
+        font-family: "Montserrat Alternates", sans-serif;
+        display: flex;
+        align-items: center;
+        text-align: center; /* Добавляем выравнивание текста по центру */
+    }
+.Description-Location{
+    display:flex;
+    justify-content:space-between;
+}
+    .Description-Location h5 {
+        margin-top:15px;
+        
+    }
+.Price-Contact{
+    display:flex;
+    justify-content:space-between;
+}
+.collage-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .collage-image img {
+        width:100%;
+        border-radius:100px;
+        height: 35vh;
+        align-items:center;
+        object-fit: cover; /* чтобы изображение заполняло всю область без искажений */
+    }
+.collage-image {
+    position: relative; /* Устанавливаем позицию для контейнера */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.text-overlay {
+    position: absolute; /* Абсолютное позиционирование для текста */
+    top: 50%; /* Размещаем текст по вертикали посередине контейнера */
+    left: 50%; /* Размещаем текст по горизонтали посередине контейнера */
+    transform: translate(-50%, -50%); /* Центрируем текст относительно центра контейнера */
+    color: white; /* Цвет текста */
+    text-align: center; /* Выравниваем текст по центру */
+    z-index: 1; /* Устанавливаем z-index, чтобы текст находился над изображением */
+}
+
+    .text-overlay p {
+        margin: 0; /* Убираем отступы параграфов */
+        font-size: 18px; /* Размер текста */
+        line-height: 1.5; /* Межстрочное расстояние */
+        font-family: Arial, sans-serif; /* Шрифт текста */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Добавляем тень тексту для лучшей читаемости */
+    }
+
+
+.collage-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .collage-image img {
+        width: 100%;
+        border-radius: 100px;
+        height: 35vh;
+        align-items: center;
+        object-fit: cover; /* Затемнение изображения */
+    }
+.text-overlay {
+    /* Остальные стили */
+    animation: fadeInOut 20s linear infinite; /* Общая длительность анимации 25 секунд (15 + 10) */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; /* Начинаем с нулевой прозрачности */
+    }
+
+    40% {
+        opacity: 1; /* Проявляем текст на 15% анимации */
+    }
+
+    60% {
+        opacity: 1; /* Сохраняем текст видимым на 15 секунд (40% - 100%) */
+    }
+
+    90% {
+        opacity: 0; /* Затем исчезаем на 10% анимации */
+    }
+
+    100% {
+        opacity: 0; /* Скрываем текст в конце */
+    }
+}
+
+.collage-image {
+    position: relative;
+}
+
+    .collage-image img {
+        width: 100%;
+        border-radius: 100px;
+        height: 35vh;
+        align-items: center;
+        object-fit: cover;
+    }
+
+.text-overlay {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.text {
+    display: none;
+    font-style:italic;
+}
+.Medium img{
+    border-radius:20px;
+    margin-top:20px;
+}
+.Medium{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+}
+.Car-Sharing {
+    font-size: 20px;
+    color: black;
+    margin-right: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.my-info{
+    margin-top:5%;
+}
+.Medium-img-button a {
+    position: absolute;
+    transform: translate(100%, 100%);
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: "Montserrat Alternates", sans-serif;
+ 
+}
+/* Styles for the button */
+.Medium-img-button a {
+    position: absolute;
+    top: 332px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-color:black;
+    text-decoration: none;
+    font-size: 64px;
+    font-family: "Montserrat Alternates", sans-serif;
+    opacity: 0; /* Initially hide the button */
+    transition: opacity 0.3s ease-out; /* Animation for button appearance */
+}
+
+/* Styles for the image */
+.medium-img {
+    width: 900px;
+    height: 600px;
+    transition: filter 1.3s ease-out; /* Animation for blur effect */
+}
+
+/* Styles for the container */
+.Medium-img-button {
+    position: relative;
+    display: inline-block;
+}
+
+    /* When hovering over the image */
+
+
+    /* When hovering over the container */
+    .Medium-img-button:hover a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-50%, -52%);
+        width: 900px;
+        height: 600px;
+        border: 2px solid #fff;
+        border-radius:10px;
+        opacity: 1; /* Show the button */
+        -webkit-backdrop-filter: blur(10px); /* Размытие фона для браузеров WebKit */
+        backdrop-filter: blur(10px); /* Размытие фона для остальных браузеров */
+    }
+.h2-a{
+    display:flex;
+    justify-content:end;
+}
+    .h2-a a {
+
+        font-size: 32px;
+        font-family: "Montserrat Alternates", sans-serif;
+    }
+.h2-a h2{
+    margin-right:34%;
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Car Sharing MVC.props" />
+</Project>

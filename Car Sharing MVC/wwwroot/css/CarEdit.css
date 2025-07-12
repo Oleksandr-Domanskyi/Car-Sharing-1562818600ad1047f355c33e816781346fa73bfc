@@ -1,0 +1,271 @@
+﻿
+.form-group {
+    margin-bottom: 20px; /* Отступ между элементами формы */
+}
+
+/* Стили для изображений */
+.image-container {
+    display: flex; /* Расположение изображений в ряд */
+    flex-wrap: wrap; /* Разрешение переноса изображений на новую строку */
+    gap: 10px; /* Расстояние между изображениями */
+}
+
+.image-container img {
+
+    border-radius:20px;
+    width: 300px; 
+    height: 200px; 
+}
+
+    .image-container .image-item {
+
+        position: relative; /* Позиционирование для кнопки удаления */
+        margin-bottom: 10px; /* Отступ между изображениями */
+    }
+
+.delete-button {
+    background-color: rgba(0,0,0,0.1);
+    width: 100px;
+    height: 50px;
+    color: red;
+    position: absolute; /* Позиционирование кнопки удаления */
+    top: 5px; /* Отступ от верхнего края */
+    right: 5px; /* Отступ от правого края */
+
+
+    padding: 5px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Изменение курсора при наведении */
+    font-size: 14px; /* Размер шрифта */
+}
+.Money-Value{
+    display:flex;
+    justify-content:space-around;
+
+}
+.PricePerDay{
+    width: 40%;
+}
+.Value{
+    width:40%;
+    text-align:center;
+    align-items:center;
+}
+.row{
+    color:white
+}
+.Title{
+    margin-top:5%;
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+.Name,
+.Description,
+.Country,
+.City,
+.Engine,
+.ContactNumber,
+.Color,
+.Rims,
+.Upholstery {
+    font-size: 20px;
+}
+.Front-Image {
+    margin-right: 20px;
+}
+.Front-Image-Money-Value {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирование по горизонтали */
+}
+
+.Money-Value {
+    text-align:center;
+    font-size:15px;
+    margin-top: 20px /* Добавляем отступ между блоками */
+}
+.PricePerDay input,
+.Value select {
+    text-align: center; /* Выравнивание текста по центру */
+    margin-bottom: 10px;
+}
+.Name-Description-Front-Image {
+    width: 90%; /* Расширяем блок на всю доступную ширину */
+    display: flex;
+    justify-content: space-between; /* Равномерное распределение пространства между вложенными элементами */
+}
+.col-md-4{
+    width:100%;
+}
+.Name, .Name input{
+    text-align:center;
+    font-size:30px;
+}
+.Name input{
+}
+.Name-Description {
+    width: 100%;
+}
+.Description {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+    .Description input {
+        width: 100%;
+       /* Установка минимальной высоты поля textarea */
+        overflow: hidden;
+        word-wrap: break-word;
+        /* Отключает возможность изменения размеров поля ввода пользователем */
+        padding: 10px; /* Добавляет внутренние отступы для улучшения визуального восприятия */
+        /* Учитывает внутренние отступы и границы в общей ширине поля ввода */
+        border: 1px solid #ced4da; /* Добавляет границу для поля ввода */
+        border-radius: 5px; /* Добавляет скругленные углы для поля ввода */
+        font-family: inherit; /* Наследует шрифт из родительского элемента */
+        font-size: 16px; /* Размер текста */
+    }
+
+.Contact{
+    margin-top:20px;
+}
+.Char-Cont{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    margin-right:10%;
+}
+.CharEng-ConDet {
+    display: flex;
+    justify-content:space-between
+}
+
+.ContDet input,
+.ContDet select{
+    width: 300px; /* Установите нужную вам ширину */
+}
+.ContDet{
+    margin-right:10%;
+    margin-top:25px;
+}
+.CharEng input {
+    width: 500px;
+}
+.Line-details{
+    width:90%;
+}
+.Images-title{
+    margin-top:20px;
+}
+.image-upload {
+    position: relative;
+    display: inline-block;
+
+}
+.Images-Container{
+    margin-top:20px;
+}
+
+.custom-file-upload {
+    border: 2px solid #ccc;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+    .custom-file-upload:hover {
+        background-color: #e9e9e9;
+    }
+
+    .custom-file-upload i {
+        margin-right: 10px;
+    }
+
+input[type="file"] {
+    display: none;
+}
+.font-image-upload {
+    position: relative;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s; /* Добавлено свойство перехода для opacity */
+    opacity: 0; /* Кнопка изначально невидима */
+}
+
+.Front-Image:hover .font-image-upload {
+    opacity: 1; /* Кнопка становится видимой при наведении на изображение */
+    -webkit-backdrop-filter: blur(10px); /* Размытие фона для браузеров WebKit */
+    backdrop-filter: blur(10px); /* Размытие фона для остальных браузеров */
+    z-index: 1; /* Поднимаем кнопку над изображением */
+}
+
+.font-image-upload::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* Прозрачный белый фон */
+    -webkit-backdrop-filter: blur(10px); /* Размытие фона для браузеров WebKit */
+    backdrop-filter: blur(10px); /* Размытие фона для остальных браузеров */
+    border-radius: 10px; /* Округление углов */
+    z-index: -1; /* Помещаем псевдоэлемент под контент */
+}
+.Font-Image-Button-span{
+    font-weight:800;
+    font-size:20px;
+    color:red;
+}
+.Title-Back {
+    display: flex;
+    margin-top:5%;
+    justify-content: space-between; /* Distribute items along the main axis */
+    align-items: center; /* Center vertically */
+}
+
+    .Title-Back h1 {
+        margin: 0; /* Remove default margin */
+    }
+
+    .Title-Back a {
+        font-size: 18px;
+        margin-left: auto; /* Push the button to the right */
+    }
+.Images-Container{
+    display:flex;
+    justify-content:space-between;
+}
+.End-back{
+    font-size:24px;
+    display:flex;
+    justify-content:space-between;
+    margin-right:10%;
+
+}
+.End{
+    font-size:24px;
+
+}
+.End input,button{
+    width:200px;
+    height:50px;
+}
+.GoBack {
+    width: 200px;
+    height: 50px;
+}
