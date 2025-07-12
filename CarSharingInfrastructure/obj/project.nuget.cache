@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gHUQHiBdzq4=",
+  "dgSpecHash": "4F/wWGJXuic=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\CarSharingInfrastructure\\CarSharingInfrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\CarSharingInfrastructure\\CarSharingInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -20,8 +20,7 @@ namespace CarSharingInfrastructure.Extentions
         public static void AddInfrastrucure(this IServiceCollection service, IConfiguration configuration)
         {
             service.AddDbContext<CarSharingDbContext>(options =>
-                options.UseMySql(configuration.GetConnectionString("CarSharingConnectionString"),
-                new MySqlServerVersion(new Version(8, 0, 21))));
+                options.UseSqlServer(configuration.GetConnectionString("CarSharingConnectionString")));
 
 
             service.AddScoped<ICarSharingRepositories, CarSharingRepositories>();

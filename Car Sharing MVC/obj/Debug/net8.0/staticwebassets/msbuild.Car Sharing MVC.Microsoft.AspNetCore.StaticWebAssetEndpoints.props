@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Car Sharing MVC.hc30s978mx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Dx997eapVUSD0w0A7Fusrph4m/UAYWRih3Fk6ZXHJSw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dx997eapVUSD0w0A7Fusrph4m/UAYWRih3Fk6ZXHJSw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 13:51:07 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dx997eapVUSD0w0A7Fusrph4m/UAYWRih3Fk6ZXHJSw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 17:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Car Sharing MVC/Car Sharing MVC.hc30s978mx.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Car Sharing MVC.hc30s978mx.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hc30s978mx"},{"Name":"integrity","Value":"sha256-Dx997eapVUSD0w0A7Fusrph4m/UAYWRih3Fk6ZXHJSw="},{"Name":"label","Value":"_content/Car Sharing MVC/Car Sharing MVC.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dx997eapVUSD0w0A7Fusrph4m/UAYWRih3Fk6ZXHJSw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 13:51:07 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dx997eapVUSD0w0A7Fusrph4m/UAYWRih3Fk6ZXHJSw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Jul 2025 17:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Car Sharing MVC/css/About.c0dz51jpok.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\About.css'))</AssetFile>

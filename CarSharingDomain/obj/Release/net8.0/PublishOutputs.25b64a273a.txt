@@ -1,0 +1,14 @@
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\CarSharingDomain.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\CarSharingDomain.deps.json
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\CarSharingDomain.pdb
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Logging.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Options.dll
+C:\Users\Sasha\Desktop\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\publish\Microsoft.Extensions.Primitives.dll

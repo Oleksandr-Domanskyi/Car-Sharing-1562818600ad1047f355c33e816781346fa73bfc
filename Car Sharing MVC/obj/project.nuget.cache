@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xA9InpRJnhs=",
+  "dgSpecHash": "pHLS1/lqt6U=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\Car Sharing MVC.csproj",
+  "projectFilePath": "C:\\Users\\Sasha\\Desktop\\Car-Sharing-1562818600ad1047f355c33e816781346fa73bfc\\Car Sharing MVC\\Car Sharing MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasha\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Sasha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
